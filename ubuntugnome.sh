@@ -74,6 +74,18 @@ sudo apt upgrade -y
 
 sudo apt remove --purge ubuntu-session -y
 
+sudo apt remove --purge ubuntu-desktop -y
+
+sudo apt update 
+
+sudo apt autoremove 
+
+sudo apt install mutter gnome-shell gnome-session gnome -y
+
+sudo apt upgrade -y
+
+sudo apt update
+
 clear
 
 echo Finished. Rebooting the system.
