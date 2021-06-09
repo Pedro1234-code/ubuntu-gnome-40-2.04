@@ -6,6 +6,10 @@ cd ~/
 
 sudo mkdir hirsute
 
+sudo apt update
+
+sudo apt install wget git -y
+
 cd hirsute
 
 UBUNTU=ubuntu-base-21.04-base-amd64.tar.gz
@@ -85,6 +89,8 @@ sudo apt install mutter gnome-shell gnome-session gnome -y
 sudo apt upgrade -y
 
 sudo apt update
+
+sudo apt install openbox -y
 
 clear
 
